@@ -2,10 +2,11 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Weapons>
 
+
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>SmallMissileLauncher</SubtypeId>
+                <SubtypeId>LargeMissileLauncher_SC</SubtypeId>
             </Id>
             <ProjectileAmmoData />
             <AmmoMagazines>
@@ -16,7 +17,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>LargeMissileLauncher</SubtypeId>
+                <SubtypeId>LargeMissileTurret_SC</SubtypeId>
             </Id>
             <ProjectileAmmoData />
             <AmmoMagazines>
@@ -27,7 +28,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>LargeMissileTurret</SubtypeId>
+                <SubtypeId>LargeCalibreTurret_SC</SubtypeId>
             </Id>
             <ProjectileAmmoData />
             <AmmoMagazines>
@@ -38,7 +39,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>LargeCalibreTurret</SubtypeId>
+                <SubtypeId>LargeCalibreGun_SC</SubtypeId>
             </Id>
             <ProjectileAmmoData />
             <AmmoMagazines>
@@ -49,7 +50,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>LargeCalibreGun</SubtypeId>
+                <SubtypeId>MediumCalibreTurret_SC</SubtypeId>
             </Id>
             <ProjectileAmmoData />
             <AmmoMagazines>
@@ -60,97 +61,9 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MediumCalibreTurret</SubtypeId>
+                <SubtypeId>LargeGatlingTurret_SC</SubtypeId>
             </Id>
             <ProjectileAmmoData />
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Energy" />
-            </AmmoMagazines>
-        </Weapon>
-
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>SmallMediumCalibreTurret</SubtypeId>
-            </Id>
-            <ProjectileAmmoData />
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Energy" />
-            </AmmoMagazines>
-        </Weapon>
-
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>SmallMediumCalibreGun</SubtypeId>
-            </Id>
-            <ProjectileAmmoData />
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Energy" />
-            </AmmoMagazines>
-        </Weapon>
-
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>SmallMissileTurret</SubtypeId>
-            </Id>
-            <ProjectileAmmoData />
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Energy" />
-            </AmmoMagazines>
-        </Weapon>
-
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>GatlingGun</SubtypeId>
-            </Id>
-            <ProjectileAmmoData />		
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Energy" />
-            </AmmoMagazines>
-        </Weapon>
-
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>GatlingGunWarfare</SubtypeId>
-            </Id>
-            <ProjectileAmmoData />		
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Energy" />
-            </AmmoMagazines>
-        </Weapon>
-
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>LargeGatlingTurret</SubtypeId>
-            </Id>
-            <ProjectileAmmoData />
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Energy" />
-            </AmmoMagazines>
-        </Weapon>
-
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>SmallGatlingTurret</SubtypeId>
-            </Id>
-            <ProjectileAmmoData />
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Energy" />
-            </AmmoMagazines>
-        </Weapon>
-
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>LargeInteriorTurret</SubtypeId>
-            </Id>
-            <ProjectileAmmoData RateOfFire="1" />
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Energy" />
             </AmmoMagazines>
@@ -168,22 +81,11 @@
             </AmmoMagazines>
 			
         </Weapon>
-
+      
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>SmallRailgun</SubtypeId>
-            </Id>
-            <ProjectileAmmoData />
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Energy" />
-            </AmmoMagazines>
-        </Weapon>
-        
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>Autocannon</SubtypeId>
+                <SubtypeId>Autocannon_SC</SubtypeId>
             </Id>
             <ProjectileAmmoData />
             <AmmoMagazines>
@@ -194,7 +96,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>AutocannonTurret</SubtypeId>
+                <SubtypeId>AutocannonTurret_SC</SubtypeId>
             </Id>
             <ProjectileAmmoData />
             <AmmoMagazines>
