@@ -204,8 +204,6 @@ namespace Scripts {
             },
             Ammos = new[] {
                 LrgRocketAmmo,
-                ExRngLrgRocketAmmo,
-                ExRngLrgRocketAmmoFrag,
                 // Must list all primary, shrapnel, and pattern ammos.
             },
             //Animations = Weapon75_Animation,

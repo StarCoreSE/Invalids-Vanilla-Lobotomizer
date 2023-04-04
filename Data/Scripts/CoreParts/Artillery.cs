@@ -183,7 +183,7 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                LargeCalibreLBX2Ammo, // Must list all primary, shrapnel, and pattern ammos.
+                LargeCalibreAmmo, // Must list all primary, shrapnel, and pattern ammos.
             },
             //Animations = Weapon75_Animation,
             //Upgrades = UpgradeModules,
