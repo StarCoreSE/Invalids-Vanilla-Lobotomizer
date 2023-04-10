@@ -22,21 +22,16 @@
       <Model>Models\Cubes\Large\GatlingTurret.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="1x1TurretBaseComponent" Count="2" />
-        <Component Subtype="1x1TurretRotorComponent" Count="1" />
-        <Component Subtype="GatlingTurretComponent" Count="3" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="GatlingTurretComponent" Count="2" />
-        <!-- <Component Subtype="SteelPlate" Count="180" />
-						<Component Subtype="Construction" Count="300" />
-						<Component Subtype="Motor" Count="32" />
-						<Component Subtype="SmallTube" Count="24" />
-						<Component Subtype="Computer" Count="10" />
-						<Component Subtype="MetalGrid" Count="36" />
-						<Component Subtype="Construction" Count="240" />
-						<Component Subtype="Girder" Count="50" />
-						<Component Subtype="SteelPlate" Count="180" />
-						-->
+        <Component Subtype="SteelPlate" Count="200" />
+        <Component Subtype="Construction" Count="300" />
+        <Component Subtype="Motor" Count="32" />
+        <Component Subtype="SmallTube" Count="24" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="MetalGrid" Count="36" />
+        <Component Subtype="Construction" Count="240" />
+        <Component Subtype="Girder" Count="50" />
+        <Component Subtype="SteelPlate" Count="200" />
+
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -126,21 +121,15 @@
       <Model>Models\Cubes\Large\MediumCalibreTurret.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-
-        <Component Subtype="3x3TurretBaseComponent" Count="1" />
-        <Component Subtype="3x3TurretRotorComponent" Count="1" />
-        <Component Subtype="AssaultComponent" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="AssaultComponent" Count="4" />
-        <!--<Component Subtype="SteelPlate" Count="200" />
-						<Component Subtype="Construction" Count="200" />
-						<Component Subtype="Computer" Count="20" />						
-						<Component Subtype="MetalGrid" Count="30" />
-						<Component Subtype="SmallTube" Count="12" />
-						<Component Subtype="LargeTube" Count="30" />
-						<Component Subtype="Motor" Count="35" />
-						<Component Subtype="Construction" Count="80" />
-						<Component Subtype="SteelPlate" Count="400" />-->
+        <Component Subtype="SteelPlate" Count="200" />
+        <Component Subtype="Construction" Count="200" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="30" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="LargeTube" Count="30" />
+        <Component Subtype="Motor" Count="35" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="SteelPlate" Count="400" />-->
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -233,13 +222,15 @@
       <Model>Models\Cubes\Large\HeavyCalibreTurret.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-
-        <Component Subtype="3x3TurretBaseComponent" Count="1" />
-        <Component Subtype="3x3TurretRotorComponent" Count="1" />
-        <Component Subtype="AvalancheComponent" Count="2" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="AvalancheComponent" Count="3" />
-
+        <Component Subtype="SteelPlate" Count="700" />
+        <Component Subtype="Construction" Count="200" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="30" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="LargeTube" Count="30" />
+        <Component Subtype="Motor" Count="35" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="SteelPlate" Count="1000" />-->
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -337,22 +328,15 @@
       <Model>Models\Cubes\Large\MissileTurret.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-
-        <Component Subtype="1x1TurretBaseComponent" Count="2" />
-        <Component Subtype="1x1TurretRotorComponent" Count="1" />
-        <Component Subtype="MissileTurretComponent" Count="3" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="MissileTurretComponent" Count="2" />
-        <!-- -->
-        <!--<Component Subtype="SteelPlate" Count="500" />
-						<Component Subtype="Motor" Count="45" />
-						<Component Subtype="RadioCommunication" Count="6" />
-						<Component Subtype="Computer" Count="60" />
-						<Component Subtype="MetalGrid" Count="30" />
-						<Component Subtype="LargeTube" Count="12" />
-						<Component Subtype="Construction" Count="280" />
-						<Component Subtype="Girder" Count="64" />
-						<Component Subtype="SteelPlate" Count="240" />-->
+        <Component Subtype="SteelPlate" Count="500" />
+        <Component Subtype="Motor" Count="45" />
+        <Component Subtype="RadioCommunication" Count="6" />
+        <Component Subtype="Computer" Count="60" />
+        <Component Subtype="MetalGrid" Count="30" />
+        <Component Subtype="LargeTube" Count="12" />
+        <Component Subtype="Construction" Count="280" />
+        <Component Subtype="Girder" Count="64" />
+        <Component Subtype="SteelPlate" Count="240" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -440,21 +424,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\RocketLauncher.mwm</Model>
       <Components>
-        <Component Subtype="1x1FixedGunHarnessComponent" Count="1" />
-        <Component Subtype="FixedRocketComponent" Count="2" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="FixedRocketComponent" Count="3" />
-
-        <!--
-						<Component Subtype="SteelPlate" Count="400" />
-						<Component Subtype="Construction" Count="1060" />						
-						<Component Subtype="Motor" Count="275" />
-						<Component Subtype="Computer" Count="200" />
-						<Component Subtype="MetalGrid" Count="160" />
-						<Component Subtype="LargeTube" Count="107" />
-						<Component Subtype="Construction" Count="1080" />						
-						<Component Subtype="Girder" Count="90" />						
-						<Component Subtype="SteelPlate" Count="300" />-->
+        <Component Subtype="SteelPlate" Count="400" />
+        <Component Subtype="Construction" Count="1060" />
+        <Component Subtype="Motor" Count="275" />
+        <Component Subtype="Computer" Count="200" />
+        <Component Subtype="MetalGrid" Count="160" />
+        <Component Subtype="LargeTube" Count="107" />
+        <Component Subtype="Construction" Count="1080" />
+        <Component Subtype="Girder" Count="90" />
+        <Component Subtype="SteelPlate" Count="300" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -509,21 +487,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HeavyCalibreGun.mwm</Model>
       <Components>
-        <Component Subtype="1x1FixedGunHarnessComponent" Count="1" />
-        <Component Subtype="FixedAvalancheComponent" Count="4" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="FixedAvalancheComponent" Count="1" />
-
-        <!--
-                <Component Subtype="SteelPlate" Count="200" />
-                <Component Subtype="Construction" Count="1000" />
-				<Component Subtype="Motor" Count="230" />
-                <Component Subtype="Computer" Count="51" />
-                <Component Subtype="MetalGrid" Count="130" />
-				<Component Subtype="SmallTube" Count="120" />
-                <Component Subtype="LargeTube" Count="40" />
-                <Component Subtype="Construction" Count="500" />
-                <Component Subtype="SteelPlate" Count="250" />-->
+        <Component Subtype="SteelPlate" Count="200" />
+        <Component Subtype="Construction" Count="1000" />
+        <Component Subtype="Motor" Count="230" />
+        <Component Subtype="Computer" Count="51" />
+        <Component Subtype="MetalGrid" Count="130" />
+        <Component Subtype="SmallTube" Count="120" />
+        <Component Subtype="LargeTube" Count="40" />
+        <Component Subtype="Construction" Count="500" />
+        <Component Subtype="SteelPlate" Count="250" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -588,21 +560,17 @@
       <ModelOffset x="0" y="0" z="1" />
       <Model>Models\Cubes\Large\RailGun.mwm</Model>
       <Components>
-        <Component Subtype="1x1FixedGunHarnessComponent" Count="2" />
-        <Component Subtype="RailgunComponent" Count="2" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="RailgunComponent" Count="3" />
 
-        <!-- 
-				<Component Subtype="SteelPlate" Count="200" />
-                <Component Subtype="Construction" Count="1000" />
-                <Component Subtype="LargeTube" Count="400" />
-                <Component Subtype="Computer" Count="777" />
-                <Component Subtype="PowerCell" Count="2400"/>
-				<Component Subtype="Superconductor" Count="500" />
-				<Component Subtype="GravityGenerator" Count="60" />
-                <Component Subtype="Construction" Count="1000" />				
-				<Component Subtype="SteelPlate" Count="200" />-->
+
+        <Component Subtype="SteelPlate" Count="200" />
+        <Component Subtype="Construction" Count="1000" />
+        <Component Subtype="LargeTube" Count="400" />
+        <Component Subtype="Computer" Count="777" />
+        <Component Subtype="PowerCell" Count="2400"/>
+        <Component Subtype="Superconductor" Count="500" />
+        <Component Subtype="GravityGenerator" Count="60" />
+        <Component Subtype="Construction" Count="1000" />
+        <Component Subtype="SteelPlate" Count="200" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
