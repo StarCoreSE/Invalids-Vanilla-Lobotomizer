@@ -560,8 +560,6 @@
       <ModelOffset x="0" y="0" z="1" />
       <Model>Models\Cubes\Large\RailGun.mwm</Model>
       <Components>
-
-
         <Component Subtype="SteelPlate" Count="200" />
         <Component Subtype="Construction" Count="1000" />
         <Component Subtype="LargeTube" Count="400" />
