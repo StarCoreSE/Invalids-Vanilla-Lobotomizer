@@ -11,8 +11,8 @@
       <DisplayName>Gatling Turret 2.0</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
       <Description>
-        2km Range Anti Missile Turret.
-        Kinetic Damage. Gets Hot.  2700m/s
+        Vanilla Turret
+        Stats are equivalent to the "Painless".
       </Description>
       <CubeSize>Large</CubeSize>
       <PlaceDecals>false</PlaceDecals>
