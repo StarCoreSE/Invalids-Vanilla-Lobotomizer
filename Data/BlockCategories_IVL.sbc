@@ -8,8 +8,9 @@
                 <TypeId>GuiBlockCategoryDefinition</TypeId>
                 <SubtypeId/>
             </Id>
-            <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
-            <Name>Weapons</Name>
+            <DisplayName>.SC Vanilla 2.0 Weapons</DisplayName>
+            <Name>.SC Vanilla 2.0 Weapons</Name>
+            <StrictSearch>true</StrictSearch>
             <ItemIds>
                 <string>LargeBlockMediumCalibreTurret_SC</string>
                 <string>LargeMissileTurret_SC</string>
