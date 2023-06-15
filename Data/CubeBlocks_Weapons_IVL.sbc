@@ -107,10 +107,8 @@
       <DisplayName>Assault Cannon Turret 2.0</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\MediumCalibreTurretLarge.dds</Icon>
       <Description>
-        3.5km Range, rapid fire autocannons.
-        High Explosive rounds with a primitive contact fuse.
-        Deals Energy Damage to Opponents.
-        12 round burst, long reload.
+        Vanilla turret
+        Damage equivalent to "aesir"
       </Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -208,10 +206,8 @@
       <DisplayName>Artillery Turret 2.0</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavyCalibreTurret.dds</Icon>
       <Description>
-        6km-Range.  Slow Firing Auto Loading Cannons
-        High Explosive rounds with a primitive contact fuse
-        Deals Energy Damage to Opponents
-        Fires 8 shots in 4 bursts with 4 seconds between bursts, then reloads
+        Vanilla Turret
+        Damage equivalent to "aesir"
       </Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -476,9 +472,8 @@
       <DisplayName>Artillery Autoloading Cannon 2.0</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavyCalibreGun.dds</Icon>
       <Description>
-        7km range heavy cannon with autoloader.
-        Fires 10 shots then reloads.
-        Uses Artillery Ammo
+        Fires 16 shots then reloads.
+        Uses Artillery 2.0's Ammo
       </Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
